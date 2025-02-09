@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;
+    background-color: rgba(127, 116, 211, 0.215);
+}
+
+.container form {
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid gray;
+    background-color: white;  
+    border-radius: 10px;   
+}
+
+form h2 {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+}
+
+.input-field {
+    width: 16rem;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+}
+
+
+.forgot a {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    font-size: 12px;
+    padding-top: 12px
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    padding-top: 12px;
+}
+
+#btn {
+    width: 16rem;
+    height: 2rem;
+    font-size: 1rem;
+    background: #1877f2;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn2 {
+    background: #42B72A;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.create-account{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    padding-top: 15px;
+   
+}
+
+.create-account p {
+    font-size: 10px;
+}
